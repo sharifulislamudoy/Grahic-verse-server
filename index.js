@@ -28,7 +28,7 @@ async function connectDB() {
 connectDB();
 
 // Routes
-app.use("/api/contact", contactRoutes);
+app.use("/api/mail", contactRoutes);
 app.use("/api/chat", chatRoutes);
 
 // start server
